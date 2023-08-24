@@ -1,0 +1,22 @@
+{
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --max_stack_trace_source_length=600",
+    "dev": "node index.js",
+    "parallel": "node test1.js & node test2.js",
+    "line": "node test1.js && node test2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shandamengcheng/npm-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shandamengcheng/npm-scripts/issues"
+  },
+  "homepage": "https://github.com/shandamengcheng/npm-scripts#readme"
+}
